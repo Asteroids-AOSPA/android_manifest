@@ -13,6 +13,9 @@
     <linkfile dest="kernel_platform/build/qcom_build_extensions" src="qcom_build_extensions"/>
   </project>
 
+  <!-- Nothing Kleaf Extension -->
+  <project path="kernel_platform/build/kernel/nt_kleaf" name="Asteroids-AOSPA/nt_kleaf" remote="github" revision="calcite" />
+
   <!-- Device Dependencies -->
   <project path="device/nothing/asteroids" name="Asteroids-AOSPA/android_device_nothing_asteroids" remote="github" revision="calcite">
     <linkfile dest="vendor/aospa/products/asteroids/beans.xml" src="beans.xml"/>
