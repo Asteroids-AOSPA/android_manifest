@@ -8,9 +8,6 @@
      Based on release KERNEL.PLATFORM.3.0.r1-13600-kernel.0
 -->
 <manifest>
-  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
-  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
-
   <project remote="clo-la" name="abl/tianocore/edk2" path="kernel_platform/bootable/bootloader/edk2" revision="09dca949df9515b1d4f702c78fb205d76b3f8043" upstream="refs/heads/uefi.lnx.4.0.r14-rel"/>
   <project remote="clo-la" name="kernel/build" path="kernel_platform/build/kernel" revision="aa777cca3d5f2443114fe71ccfed9bd74cd7c66a" upstream="refs/heads/kernel.lnx.6.1.r2-rel">
     <linkfile dest="kernel_platform/tools/bazel" src="kleaf/bazel.sh"/>
