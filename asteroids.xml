@@ -4,9 +4,6 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
-  <!-- Qualcomm Kernel Platform 3.0 (Kleaf / Bazel engine) -->
-  <include name="pineapple-kernel.xml" />
-
   <!-- Nothing SM7635 Kernel with vendor modules and techpack devicetrees -->
   <project path="kernel_platform/msm-kernel" name="NothingOSS/android_kernel_msm-6.1_nothing_sm7635" remote="github" revision="sm7635/b/mr" clone-depth="1">
     <linkfile dest="kernel_platform/common" src="."/>
