@@ -21,7 +21,9 @@
   <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="calcite-8650" />
   <project path="vendor/qcom/opensource/agm" name="AOSPA/android_vendor_qcom_opensource_agm" remote="aospa" revision="calcite-8650" />
   <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="calcite-8650" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="AOSPA/android_vendor_qcom_opensource_audio-hal_st-hal-ar" remote="aospa" revision="calcite-8650" />
   <project path="vendor/qcom/opensource/pal" name="AOSPA/android_vendor_qcom_opensource_arpal-lx" remote="aospa" revision="calcite-8650" />
+  <project path="vendor/qcom/opensource/audioreach-graphservices" name="AOSPA/android_vendor_qcom_opensource_audioreach-graphservices" remote="aospa" revision="calcite-8650" />
 
   <!-- Device Dependencies -->
   <project path="device/nothing/asteroids" name="Asteroids-AOSPA/android_device_nothing_asteroids" remote="github" revision="calcite" />
