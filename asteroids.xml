@@ -17,14 +17,9 @@
   <project path="kernel_platform/build/kernel/nt_kleaf" name="Asteroids-AOSPA/nt_kleaf" remote="github" revision="calcite" />
 
   <!-- Device Dependencies -->
-  <project path="device/nothing/asteroids" name="Asteroids-AOSPA/android_device_nothing_asteroids" remote="github" revision="calcite">
-    <linkfile dest="vendor/aospa/products/asteroids/beans.xml" src="beans.xml"/>
-    <linkfile dest="vendor/aospa/products/asteroids/pineapple-kernel.xml" src="pineapple-kernel.xml"/>
-    <linkfile dest="vendor/aospa/products/asteroids/aospa_asteroids.mk" src="aospa_asteroids.mk"/>
-  </project>
+  <project path="device/nothing/asteroids" name="Asteroids-AOSPA/android_device_nothing_asteroids" remote="github" revision="calcite" />
   <project path="vendor/nothing/asteroids" name="Asteroids-AOSPA/proprietary_vendor_nothing_asteroids" remote="github" revision="calcite" clone-depth="1" />
   <project path="hardware/nothing" name="Asteroids-AOSPA/android_hardware_nothing" remote="github" revision="calcite" />
   <project path="hardware/dolby" name="Asteroids-AOSPA/hardware_dolby" remote="github" revision="calcite" />
   <project path="packages/apps/DolbyAtmos" name="Asteroids-AOSPA/android_packages_apps_DolbyAtmos" remote="github" revision="calcite" />
-  <project path="kernel/nothing/sm7635-modules" name="Asteroids-AOSPA/android_kernel_nothing_sm7635-modules" remote="github" revision="calcite" />
 </manifest>
