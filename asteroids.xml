@@ -17,6 +17,7 @@
   <project path="kernel_platform/build/kernel/nt_kleaf" name="Asteroids-AOSPA/nt_kleaf" remote="github" revision="calcite" />
 
   <!-- Qualcomm Platform 8650/7635 Dependencies -->
+  <project path="kernel/qcom/headers" name="AOSPA/android_kernel_qcom-headers" remote="aospa" revision="calcite" />
   <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="calcite-8650" />
   <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="calcite-8650" />
   <project path="vendor/qcom/opensource/agm" name="AOSPA/android_vendor_qcom_opensource_agm" remote="aospa" revision="calcite-8650" />
