@@ -25,6 +25,47 @@
   <project path="vendor/qcom/opensource/pal" name="AOSPA/android_vendor_qcom_opensource_arpal-lx" remote="aospa" revision="calcite-8650" />
   <project path="vendor/qcom/opensource/audioreach-graphservices" name="AOSPA/android_vendor_qcom_opensource_audioreach-graphservices" remote="aospa" revision="calcite-8650" />
 
+  <!-- Qualcomm Techpack Kernel Drivers -->
+  <project path="vendor/qcom/opensource/audio-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_audio-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/bt-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_bt-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/camera-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_camera-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/dataipa" name="Asteroids-AOSPA/android_vendor_qcom_opensource_dataipa" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/datarmnet" name="Asteroids-AOSPA/android_vendor_qcom_opensource_datarmnet" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/datarmnet-ext" name="Asteroids-AOSPA/android_vendor_qcom_opensource_datarmnet-ext" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/display-drivers" name="Asteroids-AOSPA/android_vendor_qcom_opensource_display-drivers" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/dsp-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_dsp-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/eva-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_eva-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/fingerprint" name="Asteroids-AOSPA/android_vendor_qcom_opensource_fingerprint" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/graphics-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_graphics-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/mm-drivers" name="Asteroids-AOSPA/android_vendor_qcom_opensource_mm-drivers" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/mmrm-driver" name="Asteroids-AOSPA/android_vendor_qcom_opensource_mmrm-driver" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/mm-sys-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_mm-sys-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/securemsm-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_securemsm-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/spu-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_spu-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/synx-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_synx-kernel" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/touch-drivers" name="Asteroids-AOSPA/android_vendor_qcom_opensource_touch-drivers" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/video-driver" name="Asteroids-AOSPA/android_vendor_qcom_opensource_video-driver" remote="github" revision="main" />
+  <project path="vendor/qcom/opensource/wlan" name="Asteroids-AOSPA/android_vendor_qcom_opensource_wlan" remote="github" revision="main" />
+
+  <!-- Qualcomm Techpack Devicetree Overlays -->
+  <project path="vendor/qcom/proprietary/audio-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_audio-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/bt-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_bt-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/camera-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_camera-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/data-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_data-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/display-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_display-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/dsp-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_dsp-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/eSE-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_eSE-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/eva-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_eva-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/fingerprint-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_fingerprint-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/graphics-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_graphics-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/mm-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_mm-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/mmrm-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_mmrm-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/mm-sys-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_mm-sys-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/nfc-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_nfc-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/synx-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_synx-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/video-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_video-devicetree" remote="github" revision="main" />
+  <project path="vendor/qcom/proprietary/wlan-devicetree" name="Asteroids-AOSPA/android_vendor_qcom_proprietary_wlan-devicetree" remote="github" revision="main" />
+
   <!-- Device Dependencies -->
   <project path="device/nothing/asteroids" name="Asteroids-AOSPA/android_device_nothing_asteroids" remote="github" revision="calcite" />
   <project path="vendor/nothing/asteroids" name="Asteroids-AOSPA/proprietary_vendor_nothing_asteroids" remote="github" revision="calcite" clone-depth="1" />
