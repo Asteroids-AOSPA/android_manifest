@@ -17,6 +17,7 @@ Clone or copy these manifest files into `.repo/local_manifests/`:
 ```bash
 mkdir -p .repo/local_manifests
 curl -sL https://raw.githubusercontent.com/Asteroids-AOSPA/android_manifest/calcite/asteroids.xml > .repo/local_manifests/asteroids.xml
+curl -sL https://raw.githubusercontent.com/Asteroids-AOSPA/android_manifest/calcite/pineapple.xml > .repo/local_manifests/pineapple.xml
 curl -sL https://raw.githubusercontent.com/Asteroids-AOSPA/android_manifest/calcite/pineapple-kernel.xml > .repo/local_manifests/pineapple-kernel.xml
 ```
 
