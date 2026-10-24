@@ -4,6 +4,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest>
+  <!-- Qualcomm Common 6.1 Display & Media Components -->
+  <project path="device/qcom/common/vendor/display/6.1" name="Asteroids-AOSPA/android_vendor_display_6.1" remote="github" revision="calcite" />
+  <project path="device/qcom/common/vendor/media/6.1" name="Asteroids-AOSPA/android_vendor_media_6.1" remote="github" revision="calcite" />
+
   <!-- Qualcomm Platform 8650/7635 Dependencies -->
   <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="calcite-8650" />
   <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="calcite-8650" />
