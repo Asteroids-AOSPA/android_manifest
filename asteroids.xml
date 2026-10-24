@@ -22,5 +22,4 @@
   <project path="hardware/nothing" name="Asteroids-AOSPA/android_hardware_nothing" remote="github" revision="calcite" />
   <project path="hardware/dolby" name="Asteroids-AOSPA/hardware_dolby" remote="github" revision="calcite" />
   <project path="packages/apps/DolbyAtmos" name="Asteroids-AOSPA/android_packages_apps_DolbyAtmos" remote="github" revision="calcite" />
-  <project path="packages/apps/ParanoidGlyph" name="Asteroids-AOSPA/packages_apps_ParanoidGlyph" remote="github" revision="calcite" />
 </manifest>
