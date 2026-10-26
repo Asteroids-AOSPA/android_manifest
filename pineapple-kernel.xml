@@ -70,6 +70,7 @@
   <project path="vendor/qcom/opensource/audio-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_audio-kernel" remote="github" revision="main" />
   <project path="vendor/qcom/opensource/bt-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_bt-kernel" remote="github" revision="main" />
   <project path="vendor/qcom/opensource/camera-kernel" name="Asteroids-AOSPA/android_vendor_qcom_opensource_camera-kernel" remote="github" revision="main" />
+  <remove-project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr"/>
   <project path="vendor/qcom/opensource/dataipa" name="Asteroids-AOSPA/android_vendor_qcom_opensource_dataipa" remote="github" revision="main" />
   <project path="vendor/qcom/opensource/datarmnet" name="Asteroids-AOSPA/android_vendor_qcom_opensource_datarmnet" remote="github" revision="main" />
   <project path="vendor/qcom/opensource/datarmnet-ext" name="Asteroids-AOSPA/android_vendor_qcom_opensource_datarmnet-ext" remote="github" revision="main" />
